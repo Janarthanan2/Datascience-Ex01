@@ -104,13 +104,27 @@ df.isnull().sum()
 # OUTPUT
 ## DATA1:
 ![Screenshot 2023-08-23 124329](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/6124ddd7-146e-4d0e-b9d0-2e820bae5d04)
-## NON NULL BEFORE:
+### NON NULL BEFORE:
 ![Screenshot 2023-08-23 150208](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/fd1ea313-9283-4995-9600-b8cc4543bb45)
 ![Screenshot 2023-08-23 150321](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/9ec9921d-7114-4e1c-b6c4-2fd8320e86f1)
+### NON NULL AFTER:
+![Screenshot 2023-08-23 150502](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/d7b79a9e-cf7a-4036-8a6d-d988a3744639)
+![Screenshot 2023-08-23 150732](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/7e515e0a-2458-4c90-9327-6956b4ad3a59)
+![Screenshot 2023-08-23 150944](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/ecd44637-01d7-423b-b802-8d47974824ae)
+![Screenshot 2023-08-23 151004](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/5f8c9b79-d2b4-4026-8e43-4be37a08b2fc)
+![Screenshot 2023-08-23 151033](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/57ca54f1-a86c-497f-8cbc-7bc331698e16)
+![Screenshot 2023-08-23 151053](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/9a5832b9-69c3-49c8-abe4-105dea925c9f)
+### OUTCOME:
+![Screenshot 2023-08-23 151204](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/593ad16c-da7a-4fe6-9fd5-facee634d2f8)
 
 
 ## DATA2:
 ![Screenshot 2023-08-23 124543](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/92d0f85d-2093-44c5-9eca-ccfb7a3f1927)
-## NON NULL BEFORE:
+### NON NULL BEFORE:
 ![Screenshot 2023-08-23 150237](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/87f7b1e9-4cd5-484c-a119-63c8a627d175)
 ![Screenshot 2023-08-23 150342](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/4ee05570-b0be-4aa9-937e-4b97eec84473)
+
+### NON NULL AFTER:
+
+
+
