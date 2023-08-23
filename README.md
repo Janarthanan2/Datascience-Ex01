@@ -104,6 +104,13 @@ df.isnull().sum()
 # OUTPUT
 ## DATA1:
 ![Screenshot 2023-08-23 124329](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/6124ddd7-146e-4d0e-b9d0-2e820bae5d04)
+## NON NULL BEFORE:
+![Screenshot 2023-08-23 150208](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/fd1ea313-9283-4995-9600-b8cc4543bb45)
+![Screenshot 2023-08-23 150321](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/9ec9921d-7114-4e1c-b6c4-2fd8320e86f1)
+
 
 ## DATA2:
 ![Screenshot 2023-08-23 124543](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/92d0f85d-2093-44c5-9eca-ccfb7a3f1927)
+## NON NULL BEFORE:
+![Screenshot 2023-08-23 150237](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/87f7b1e9-4cd5-484c-a119-63c8a627d175)
+![Screenshot 2023-08-23 150342](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/4ee05570-b0be-4aa9-937e-4b97eec84473)
