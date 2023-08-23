@@ -125,6 +125,13 @@ df.isnull().sum()
 ![Screenshot 2023-08-23 150342](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/4ee05570-b0be-4aa9-937e-4b97eec84473)
 
 ### NON NULL AFTER:
+![Screenshot 2023-08-23 153636](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/cca12e81-2b5f-4e78-939b-3b5b5b410f94)
+![Screenshot 2023-08-23 153717](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/728bee35-4231-40a7-8719-b908bc25e370)
+![Screenshot 2023-08-23 153823](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/0abd1c0c-07c6-45c0-b2c0-fb9bc2d3df4c)
+![Screenshot 2023-08-23 153934](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/a991a828-0a4e-424a-b64d-678b8c361a5f)
+![Screenshot 2023-08-23 154103](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/3d96ef29-b604-47f6-b1dd-3ed9b8f1aac1)
 
+### OUTCOME:
+![Screenshot 2023-08-23 154418](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/1e6dc7af-1cc8-4d3c-9e0d-baff36e5f1bc)
 
 
