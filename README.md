@@ -19,3 +19,40 @@ Remove the null values from the data
 Save the Clean data to the file
 
 # CODE and OUTPUT
+### PROGRAM1:
+```
+import numpy as np
+import pandas as pd
+import seaborn as sns
+df=pd.read_csv("/content/Data_set (1).csv")
+print(df.info())
+df.head(10)
+df.shape
+print(df.describe())
+'''Reason: Aired on is not a sensitive data , since, it may aired on some other days in the week.'''
+df['aired_on'] = df['show_name'].fillna(df['aired_on'].mode()[0])
+print(df.isnull().sum())
+'''Reason: Assuming that network may used the top.'''
+df['original_network'] = df['original_network'].fillna(df['original_network'].mode()[0])
+df.head(5)
+print(df.isnull().sum())
+'''Reason: Assuming that watchers may watched the shows. '''
+df['watchers'] = df['watchers'].fillna(df['watchers'].median())
+df.head(5)
+print(df.isnull().sum())
+'''Reason: Mostly the rating will be average'''
+df['rating'] = df['rating'].fillna(df['rating'].mean())
+df.head(5)
+print(df.isnull().sum())
+'''Reason: Showname has unique names for every data. So We have to drop the values '''
+df = df.dropna(subset=['show_name'])
+df.head(5)
+print(df.isnull().sum())
+'''Reason: The show is not in the overall rank list.'''
+df = df.dropna(subset=['current_overall_rank'])
+df.head(5)
+print(df.isnull().sum())
+print(df.info())
+print(df.describe())
+
+```
