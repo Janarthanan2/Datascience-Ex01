@@ -101,3 +101,9 @@ df['Loan_Amount_Term'] = df['Loan_Amount_Term'].fillna(df['Loan_Amount_Term'].me
 df.head(5)
 df.isnull().sum()
 ```
+# OUTPUT
+## DATA1:
+![Screenshot 2023-08-23 124329](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/6124ddd7-146e-4d0e-b9d0-2e820bae5d04)
+
+## DATA2:
+![Screenshot 2023-08-23 124543](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/92d0f85d-2093-44c5-9eca-ccfb7a3f1927)
