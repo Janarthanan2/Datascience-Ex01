@@ -133,4 +133,5 @@ df.isnull().sum()
 ### OUTCOME:
 ![Screenshot 2023-08-23 154418](https://github.com/Janarthanan2/Datascience-Ex01/assets/119393515/1e6dc7af-1cc8-4d3c-9e0d-baff36e5f1bc)
 
-
+# RESULT
+Thus the given data is read,cleaned is saved into the file
