@@ -63,3 +63,41 @@ print(df.info())
 print(df.describe())
 
 ```
+### PROGRAM2:
+```
+import pandas as pd
+import numpy as np
+import seaborn as sns
+df=pd.read_csv("/content/Loan_data.csv")
+df.describe()
+df.info()
+df.isnull().sum()
+
+'''Reason: Gender cannot be replaced.'''
+df = df.dropna(subset="Gender")
+df.head(5)
+
+'''Reason: Gender cannot be replaced.'''
+df = df.dropna(subset="Gender")
+df.head(5)
+df.isnull().sum()
+
+'''Reason: The dependents are most important in loan data. So, it should be removed.'''
+df = df.dropna(subset=["Dependents"])
+df.isnull().sum()
+
+'''Reason: Most probably bank allocate loan for employed'''
+df['Self_Employed'] = df['Self_Employed'].fillna(df['Self_Employed'].mode()[0])
+df.head(5)
+df.isnull().sum()
+
+'''Reason: Bank will allot loan amount for a person according to its credits '''
+df['LoanAmount'] = df['LoanAmount'].fillna(df['LoanAmount'].mean())
+df.head(5)
+df.isnull().sum()
+
+'''Reason: Loan amount term will most probably same.'''
+df['Loan_Amount_Term'] = df['Loan_Amount_Term'].fillna(df['Loan_Amount_Term'].median())
+df.head(5)
+df.isnull().sum()
+```
